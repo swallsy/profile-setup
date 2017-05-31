@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section class="signup-form">
+      <h2>Sign up</h2>
+      <form>
+        <div class="radio-buttons">
+          <div id="admin">
+            <input type="radio" name="admin" value="admin">
+            <label for="admin">admin</label>
+          </div>
+          <div id="personal">
+            <input type="radio" name="personal" value="personal">
+            <label for="personal">personal</label>
+          </div>
+          <div id="guest">
+            <input type="radio" name="guest" value="guest">
+            <label for="guest">guest</label>
+          </div>
+        </div>
+        <div class="text-areas">
+          <div class="text">
+            <label for="name">name</label><br>
+            <input type="text" name="name">
+          </div>
+          <div class="text">
+            <label for="email">email address</label><br>
+            <input type="text" name="email">
+          </div>
+          <div class="text">
+            <label for="password">password</label><br>
+            <input type="text" name="password">
+          </div>
+          <div class="text">
+            <label for="confirm">confirm password</label><br>
+            <input type="text" name="confirm">
+          </div>
+        </div>
+        <p class="profile">profile picture</p>
+        <div class="bottom_row">
+          <div class="profile-picture">
+            <input type="submit" name="profile_pic" value="Choose File">
+            <label>No file chosen</label>
+          </div>
+          <div class="submit">
+            <button type="button">sign up</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
